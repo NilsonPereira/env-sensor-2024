@@ -1,0 +1,47 @@
+record(ao, "NSRV:ENV:temperature"){}
+record(ao, "NSRV:ENV:temperature:raw"){}
+record(ao, "NSRV:ENV:temperature:offset"){}
+record(ao, "NSRV:ENV:temperature:Navg"){}
+record(ao, "NSRV:ENV:temperature:avg"){}
+
+record(ao, "NSRV:ENV:rh"){}
+record(ao, "NSRV:ENV:rh:raw"){}
+record(ao, "NSRV:ENV:rh:offset"){}
+record(ao, "NSRV:ENV:rh:Navg"){}
+record(ao, "NSRV:ENV:rh:avg"){}
+
+record(ao, "NSRV:ENV:pressure"){}
+record(ao, "NSRV:ENV:pressure:raw"){}
+record(ao, "NSRV:ENV:pressure:offset"){}
+record(ao, "NSRV:ENV:pressure:Navg"){}
+record(ao, "NSRV:ENV:pressure:avg"){}
+
+record(ao, "NSRV:ENV:airquality"){}
+record(ao, "NSRV:ENV:airquality:raw"){}
+record(ao, "NSRV:ENV:airquality:offset"){}
+record(ao, "NSRV:ENV:airquality:Navg"){}
+record(ao, "NSRV:ENV:airquality:avg"){}
+
+record(ao, "NSRV:ENV:light:intensity"){}
+record(ao, "NSRV:ENV:light:intensity:raw"){}
+record(ao, "NSRV:ENV:light:intensity:offset"){}
+record(ao, "NSRV:ENV:light:intensity:Navg"){}
+record(ao, "NSRV:ENV:light:intensity:avg"){}
+
+record(ao, "NSRV:ENV:light:red"){}
+record(ao, "NSRV:ENV:light:red:raw"){}
+record(ao, "NSRV:ENV:light:red:offset"){}
+record(ao, "NSRV:ENV:light:red:Navg"){}
+record(ao, "NSRV:ENV:light:red:avg"){}
+
+record(ao, "NSRV:ENV:light:green"){}
+record(ao, "NSRV:ENV:light:green:raw"){}
+record(ao, "NSRV:ENV:light:green:offset"){}
+record(ao, "NSRV:ENV:light:green:Navg"){}
+record(ao, "NSRV:ENV:light:green:avg"){}
+
+record(ao, "NSRV:ENV:light:blue"){}
+record(ao, "NSRV:ENV:light:blue:raw"){}
+record(ao, "NSRV:ENV:light:blue:offset"){}
+record(ao, "NSRV:ENV:light:blue:Navg"){}
+record(ao, "NSRV:ENV:light:blue:avg"){}
