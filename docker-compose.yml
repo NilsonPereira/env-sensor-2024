@@ -1,0 +1,33 @@
+version: "3.3"
+services:
+  ioc:
+    image: env-sensor-2024:v1.0
+    container_name: envsensor24
+    network_mode: host
+    stdin_open: true
+    tty: true
+    restart: always
+    working_dir: "/EPICS/IOCs/env-sensor-2024/iocBoot/iocsts"
+    command: "./envsensor.cmd"
+    volumes:
+        - type: bind
+          source: /EPICS/autosave/envsensor
+          target: /EPICS/autosave
+  py:
+    image: env-sensor-2024:v1.0
+    container_name: envsensor24_py
+    network_mode: host
+    stdin_open: true
+    tty: true
+    restart: always
+    depends_on:
+        - "ioc"
+    working_dir: "/EPICS/IOCs/env-sensor-2024/script"
+    command: "./envsensor.py"
+    environment:
+        - EPICS_CA_AUTO_ADDR_LIST=NO
+        - EPICS_CA_ADDR_LIST=192.168.1.10
+
+
+
+
